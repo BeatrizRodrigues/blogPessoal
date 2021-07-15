@@ -11,6 +11,7 @@ import org.springframework.stereotype.Service;
 import com.blogPessoal.blogPessoal.model.Usuario;
 import com.blogPessoal.blogPessoal.repository.UsuarioRepository;
 
+
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService {
 	@Autowired

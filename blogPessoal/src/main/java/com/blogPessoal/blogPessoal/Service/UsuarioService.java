@@ -12,6 +12,7 @@ import com.blogPessoal.blogPessoal.model.Usuario;
 import com.blogPessoal.blogPessoal.model.UsuarioLogin;
 import com.blogPessoal.blogPessoal.repository.UsuarioRepository;
 
+
 @Service
 public class UsuarioService {
 	@Autowired
