@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { User } from '../model/User';
 import { AuthService } from '../service/auth.service';
+import { UserLogin } from './../model/UserLogin';
 
 @Component({
   selector: 'app-cadastrar',
@@ -40,7 +41,7 @@ export class CadastrarComponent implements OnInit {
       this.authService.cadastrar(this.user).subscribe((resp: User) => {
         this.user = resp
         this.router.navigate(['/entrar'])
-        alert('Usuário cadastrado com sucesso! :)')
+        alert('Usuário cadastrado com sucesso!')
       })
     }
   }
