@@ -1,0 +1,12 @@
+.botaoCadastrar {
+    color: grey;
+    background-color: white;
+    transition-duration: 1s;
+    font-weight: bolder;
+}
+  
+.botaoCadastrar:hover {
+    color: white;
+    background-color: green;
+    transition-duration: 1s;
+}
